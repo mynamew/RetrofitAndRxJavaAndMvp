@@ -19,6 +19,7 @@ public class LogInActivity extends BaseActivity<LoginView, LoginPresenter> imple
 
     @Override
     public void initBundle(Bundle savedInstanceState) {
+        //设置base url
         Constants.BASE_URL = "http://222.92.132.196:9000/index.asmx/";
     }
 
