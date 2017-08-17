@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.timi.retrofitrxjava.R;
 import com.timi.retrofitrxjava.bean.LoginBean;
-import com.timi.retrofitrxjava.mvp.BaseActivity;
+import com.timi.retrofitrxjava.mvp.base.BaseActivity;
 import com.timi.retrofitrxjava.uils.Constants;
 
 public class LogInActivity extends BaseActivity<LoginView, LoginPresenter> implements LoginView {
